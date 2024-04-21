@@ -6,7 +6,7 @@ This is a very simple, animated horizontal bar chart implementation with no depe
 
 ## Key features
 
-- No dependencies
+- No dependencies, less than 1kb size
 - Ability to easily set, customize and display bar chart
 - Each bar is automatically color graded, based on the initial color
 - Chart animates when it enters the viewport (it's using IntersectionObserver)
