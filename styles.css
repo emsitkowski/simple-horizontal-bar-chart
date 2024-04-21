@@ -1,0 +1,29 @@
+body {
+  font-family: "Roboto", "Lato", sans-serif;
+  background-color: aliceblue;
+  padding: 60px 6%;
+}
+
+.statbars__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 64px;
+}
+.statbars__wrapper .statbars__bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 32px;
+  border-radius: 8px;
+  width: 0%; /* sets initial chart width to 0 */
+  transition: 1s cubic-bezier(0.6, 0.2, 0.4, 1);
+}
+.statbars__wrapper .statbars__bar-label {
+  position: relative;
+  margin-right: 16px;
+  color: rgba(255, 255, 255, 0);
+  line-height: 100%;
+  opacity: 0; /* sets initial label opacity to 0 */
+  transition: 0.8s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
